@@ -1,0 +1,136 @@
+.table-header {
+  background-color: #212529;
+  color: white;
+  min-height: 50px;
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-data-container {
+  max-height: 55vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.table-header-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-body-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.search-bar {
+  width: 80%;
+  margin-left: 10%;
+  margin: 5% 10%;
+  min-height: 5vh;
+  padding-left: 21px;
+  border-radius: 25px;
+  border: 1px solid lightgray;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.table-body-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-body-row:nth-child(even) {
+  background-color: rgb(240, 240, 240);
+}
+
+.sort-icon {
+  cursor: pointer;
+}
+
+.no-results {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner-container {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: lightgray;
+}
+
+.table-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-group {
+  margin-right: 8vw;
+}
+
+.search-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.search-button {
+  position: absolute;
+  top: 7.5vh;
+  right: 10vw;
+}
+
+.error-message-container {
+  padding: 50px 20px;
+}
+
+.table-header:before {
+  content: "\A";
+  border-style: solid;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #22252a transparent transparent;
+  position: absolute;
+  left: 50%;
+  transform: rotateZ(90deg);
+  top: -16px;
+}
+
+.result-found-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 29px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #bdbbbb;
+}
+
+.high-light-class {
+  background-color: #f5c3097a;
+  padding: 0;
+}

@@ -1,0 +1,16 @@
+.button-grp-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px;
+}
+
+.charts-container {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-secondary {
+  margin-right: 10px !important;
+}

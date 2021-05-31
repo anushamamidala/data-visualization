@@ -1,0 +1,15 @@
+.maps-container {
+  .btn-secondary {
+    background-color: transparent !important;
+    color: #c53e0c !important;
+    font-size: 30px !important;
+    border: 0px !important;
+  }
+}
+
+.map-main-container {
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
